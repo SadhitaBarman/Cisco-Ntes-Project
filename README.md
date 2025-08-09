@@ -5,7 +5,7 @@ built to analyze Cisco network configurations, detect issues, and simulate netwo
 
 ---
 
-## 📌 Features
+## Features
 - **Configuration Parsing**  
   Extracts IPs, VLANs, MTU, bandwidth, routes, and load from Cisco device configs.
   
@@ -26,7 +26,7 @@ built to analyze Cisco network configurations, detect issues, and simulate netwo
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ├── src/ # Python source code
 │ ├── parser.py
 │ ├── topology.py
@@ -54,4 +54,5 @@ This project is for educational purposes under the Cisco VIP Program guidelines.
 
 # Author
 Developed by Sadhita Barman
+
 
