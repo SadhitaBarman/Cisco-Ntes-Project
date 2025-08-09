@@ -1,0 +1,18 @@
+hostname R1
+!
+interface Gig0/0
+ description to-S1
+ ip address 10.0.1.1 255.255.255.0
+ mtu 1500
+ bandwidth 1000000
+!
+interface Gig0/1
+ description to-R2
+ ip address 10.0.2.1 255.255.255.0
+ mtu 1500
+ bandwidth 1000000
+!
+router ospf 1
+ network 10.0.0.0 0.0.255.255 area 0
+!
+ip route 0.0.0.0 0.0.0.0 10.0.2.2
